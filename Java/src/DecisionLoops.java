@@ -2,10 +2,18 @@
 public class DecisionLoops 
 {
 	
-	static public void main(String[] args)
+	public static void main(String[] args)
 	{
+		int x = 1;
 		System.out.println("Hello Git"); //Testing Through Eclipse
-		//Git App Test
+		
+		while (x <= 4) //simple while loop
+		{
+			System.out.println("Value of x: " + x);
+			x++;
+		}
+		
+		
 	}
 	
 }
